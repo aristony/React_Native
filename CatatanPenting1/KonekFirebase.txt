@@ -1,0 +1,16 @@
+Login to firebase
+add Firebase to your web app
+Register App
+
+klik on real database menu
+project setting
+klik bagian web
+name Reactnative
+
+npm install --save firebase
+npm install react-native-check-box
+buat Depan.js
+di index.js import app from'./Depan';
+
+buat file baru Firebase.js
+isi import firebase from 'firebase'
