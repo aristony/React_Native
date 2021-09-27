@@ -50,7 +50,7 @@ android {
 }
 ...
 
-
+hati hati kurang {}
 terus 
 cd android
 ./gradlew bundleRelease
