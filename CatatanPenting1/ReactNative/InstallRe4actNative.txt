@@ -1,0 +1,44 @@
+install nodejs
+
+install git
+git --version
+
+install vs code
+exstensi yang diperlukan:
+Prettier Now
+
+
+
+dengan menggunakan PowerShell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco upgrade
+choco install -y nodejs.install openjdk8
+
+Environtment Environmentvariable
+terus klik New
+variable name : ANDROID_HOME
+variable value : %LOCALAPPDATA%\Android\Sdk
+klik hiden file cari AppData
+
+buka Environmentvariable
+path : klik New
+%LOCALAPPDATA%\Android\Sdk\platform-tools
+
+
+%LOCALAPPDATA%\Android\Sdk
+
+%LOCALAPPDATA%\Android\Sdk\platform-tools
+
+npx react-native init AwesomeProject
+
+npx react-native init AwesomeProject --version X.XX.X
+
+npx react-native start
+
+npx react-native run-android
+
+
+Extension yang perlu diinstall:
+React-native snippets
+Auto Renamae tag 
+JunHan
