@@ -1,0 +1,17 @@
+{/* masuk ke flat icon * lalu download logo 512px  appicon.co  terus di appicon generator */}
+{/*ambil  file yang telah di generator  simpan di ./android/src/main/res*/}
+{/*ganti file di mipmap*/}
+{/*untuk ios buka ios/namafolder/images.xcassets/AppIcon.appiconset paste disitu AppIcon.appiconset file png terus npm run ios clean build folder di xcode di folder name */}
+{/*npm start*/}
+{/*selesai*/}
+
+
+{/*buka Android manifest xml  ./android/app/src/main*/}
+{/*ambil  file yang telah di generator  simpan di ./android/src/main/res*/}
+{/*ganti file di mipmap*/}
+{/*untuk ios buka ios/namafolder/images.xcassets/AppIcon.appiconset paste disitu AppIcon.appiconset file png terus npm run ios clean build folder di xcode di folder name */}
+{/*npm start*/}
+{/*selesai*/}
+{/*Android assets studio lalu copas*/}
+
+{/*untuk ganti nama buka ./android/src/main/res value -> string xml ganti nama app name*/}
