@@ -1,0 +1,67 @@
+cara ubah package name 
+buka ./android/src/main/ -> Java 
+buat folder nama package baru lalu folder lama masukan ke folder baru
+
+com.fire di replace oleh com.codenesia folder
+
+npm install --save @react-native-firebase/app
+cd android && ./gradlew
+cd ke  ./android terus ketik signingReport
+
+SHA1 dicopy
+– Open a terminal window
+
+– Change the directory to the JDK bin directory. The path of the JDK depends upon the operating system you are using
+
+cd C:\Program Files\Java\jdk1.8.0_121\bin
+
+– Now we have to run the following command using the keytool.exe file in JDK/bin
+
+keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+First, add the google-services plugin as a dependency inside of your /android/build.gradle file:
+
+buildscript {
+  dependencies {
+    // ... other dependencies
+    classpath 'com.google.gms:google-services:4.3.10'
+    // Add me --- /\
+  }
+}
+
+Lastly, execute the plugin by adding the following to your /android/app/build.gradle file:
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services' // <- Add this line
+
+Autolinking & rebuilding
+
+npx react-native run-android
+
+Enabling Multidex
+
+file. Under dependencies we need to add the module, and then enable it within the defaultConfig:
+android {
+    defaultConfig {
+        // ...
+        multiDexEnabled true // <-- ADD THIS in the defaultConfig section
+    }
+    // ...
+}
+
+dependencies {
+  implementation 'androidx.multidex:multidex:2.0.1'  // <-- ADD THIS DEPENDENCY
+}
+
+The 3rd step is to alter your android/app/src/main/java/.../MainApplication.java file to extend MultiDexApplication like so:
+// ... all your other imports here
+import androidx.multidex.MultiDexApplication; // <-- ADD THIS IMPORT
+
+
+// Your class definition needs `extends MultiDexApplication` like below
+public class MainApplication extends MultiDexApplication implements ReactApplication {
+ditambah
+
+npm start android
+
+
