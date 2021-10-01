@@ -1,7 +1,8 @@
 cara ubah package name 
 buka ./android/src/main/ -> Java 
 buat folder nama package baru lalu folder lama masukan ke folder baru
-
+ SHA1: A7:F6:17:D6:FF:99:2A:7B:6A:53:95:B3:88:D1:BF:BD:C9:DE:11:28
+      SHA256: 6B:B9:0F:26:47:EB:55:84:81:97:B2:78:3F:25:1F:A2:47:FC:69:E5:A3:A7:4F:2F:25:89:B4:AF:43:AA:35:D8
 com.fire di replace oleh com.codenesia folder
 
 npm install --save @react-native-firebase/app
