@@ -1,0 +1,58 @@
+P4ssword Github
+p4sswordroninxyz
+xyzronin97@gmail.com
+git clone https://RoninXYZ@bitbucket.org/RoninXYZ/alfa2.git
+P4ssword BitBucket
+UserName : RoninXYZ
+Password : p4ssword123/h5dXu4S5ww4PqNK
+
+
+
+Password Gmail
+xyzronin97@gmail.com
+pass:p4ssword123
+
+No Hp1:085624643965
+nO hP2:085792207063
+
+
+"scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "prebuild": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "build": "cd android && gradlew assembleDebug && cd ../",
+    "clear": "cd android && gradlew clean && cd ../",
+    "test": "jest",
+    "lint": "eslint ."
+  }
+
+Cata build apk reactnative:
+package Json
+"clear": "cd android && gradlew clean && cd ../",
+- npm run clear
+ "prebuild": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+- kefolder android/app/src/main tambah folder bernama assets
+ "build": "cd android && gradlew assembleDebug && cd ../",
+- npm run build
+- apk ada di android/app/build/outputs/apk/debug/app-debug.apk
+
+
+
+
+
+cara upload di git bitbucket
+# in the directory C:\test\example
+git init
+git add .
+git commit -am 'initial commit'
+git remote add origin https://RoninXYZ@bitbucket.org/RoninXYZ/alfa2.git
+git remote add origin https://accountu@bitbucket.org/account/reponame.git
+git push -u origin master
+
+
+password bitbucket : p4ssword123
+Username : RoninBanjar
+email : antosan1234567@gmail.com
+git clone https://RoninBanjar@bitbucket.org/RoninBanjar/alfa1.git
+git remote add origin https://RoninBanjar@bitbucket.org/RoninBanjar/alfa1.git

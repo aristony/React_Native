@@ -1,0 +1,3 @@
+npx react-native init NameProject (Membuat file reactnative)
+npx react-native start
+npx react-native run-android (build android)
