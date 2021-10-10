@@ -1,3 +1,10 @@
+DatabaseName :Bravo1
+username:Root
+password:m6KT[<b*jx|%$|(_
+
+
+
+
 <?php 
 error_reporting(0);
 
